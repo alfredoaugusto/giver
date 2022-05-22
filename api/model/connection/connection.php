@@ -21,7 +21,7 @@ class Connection
     {
         //O certo seria utilizar a injecao de dependencias para esta conexao
         try {
-            $this->pdo = new PDO('mysql:host=localhost;dbname=giver', 'root', '@1Scyllapro');
+            $this->pdo = new PDO('mysql:host=localhost;dbname=giver', 'root', '');
             $this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         } catch (PDOException $e) {
             echo 'ERROR: ' . $e->getMessage();
