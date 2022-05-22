@@ -11,13 +11,15 @@ MySql 8.0.29
 React 18
 
 
-# Pastas e configurações iniciais
+## Pastas e configurações iniciais
 
 giver/api => Código PHP
+
 giver/front => Código React
 
 Abrir os arquivos
 1 -> front\givers\src\serverConfig.js
+
 2 -> api\model\connection\connection.php
 
 No arquivo serverConfig.js, alterar a propriedade apiUrl para os dados do servidor PHP.
