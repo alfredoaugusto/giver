@@ -3,8 +3,11 @@
 Foram utilizados as linguagens PHP  com banco de dados em MySQL e ReactJS.
 
 PHP 8.1.6
+
 PHPUnit 9.5.20
+
 MySql 8.0.29
+
 React 18
 
 
@@ -14,7 +17,7 @@ giver/api => Código PHP
 giver/front => Código React
 
 Abrir os arquivos
-1 -> front\givers2-front\src\serverConfig.js
+1 -> front\givers\src\serverConfig.js
 2 -> api\model\connection\connection.php
 
 No arquivo serverConfig.js, alterar a propriedade apiUrl para os dados do servidor PHP.
@@ -27,7 +30,7 @@ Criar uma base dados e rodar os o script bkp_table_customer.sql que está na pas
 
 ## Rodando a aplicação (front)
 
-Acessar: givers2/front/givers2-front;
+Acessar: front/giver;
 
     npm install;
     npm start;
