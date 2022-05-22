@@ -37,7 +37,7 @@ class CustomerTable extends React.Component {
 
         $.ajax({
             type: "POST",
-            url: serverConfig.apiUrl + "/givers2/api/view/customers/add.php",
+            url: serverConfig.apiUrl + "/giver/api/view/customers/add.php",
             data: {data: JSON.stringify(data)},
             success: () => {
                 window.location.reload();
@@ -49,7 +49,7 @@ class CustomerTable extends React.Component {
     loadData() {
         if (!this.state.loaded) {
             const api = axios.create({
-                baseURL: serverConfig.apiUrl + "/givers2/api/view/customers",
+                baseURL: serverConfig.apiUrl + "/giver/api/view/customers",
             });
             
             api().then( response => {

@@ -18,7 +18,7 @@ class CustomerChart extends React.Component {
             $.ajax({
                 type: "GET",
                 dataType: 'JSON',
-                url: serverConfig.apiUrl + "/givers2/api/view/customers/charts_data.php",
+                url: serverConfig.apiUrl + "/giver/api/view/customers/charts_data.php",
                 success: response => {
                     this.setState({data: response, loaded: true});
                 }
