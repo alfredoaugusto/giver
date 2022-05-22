@@ -1,0 +1,3 @@
+[submodule "giver"]
+	path = giver
+	url = https://github.com/alfredoaugusto/giver/
