@@ -1,13 +1,13 @@
-# Obrigado por avaliar meu código!
+# Desafio GI (Leitura de dados de uma planilha e inserir os registros no banco de dados).
 
-Foram utilizados as linguagens PHP  com banco de dados em MySQL e ReactJS.
+
+
+Arquitetura MVC (Model e Controllers para em PHP) e as Views (Frontend) foi construido em React.
+
 
 PHP 8.1.6
-
 PHPUnit 9.5.20
-
 MySql 8.0.29
-
 React 18
 
 
